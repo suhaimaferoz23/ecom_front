@@ -1,0 +1,870 @@
+.active{
+    text-decoration: underline;
+}
+.applybtn{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #27374D;
+    color: white;
+    height: 45px;
+}
+.margin{
+    margin: auto !important;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+.about h3{
+    font-size:30px;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+}
+.about h1{
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+   text-shadow: 2px 4px 1px grey;
+}
+.aboutbg{
+    background-image: url(contents/background/aboutbg.jpg) !important;
+    background-size: cover !important;
+    height: 300px;
+}
+.aboutbg h1{
+    color: white !important;
+    text-align: center;
+}
+.aboutbg h3{
+    font-weight: 500;
+text-shadow:1px 1px 1px white;
+}
+.bigimg{
+    border: 1px solid black;
+    height: 500px;
+    width: 350px;
+ 
+}
+.bldtls a{
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.bldtls a:hover{
+    font-size: large;
+    transition: 0.3s ease;
+    color: #27374D;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+.blog img{
+    
+    margin: 40px;
+    height: 400px;
+    width: 600px;
+    z-index: 999;
+    box-shadow: 20px 20px 7px grey;
+}
+.blog h1{
+    z-index: 998;
+    position: absolute;
+    top:400px;
+    left:200px;
+    font-size: 60px;
+    color: #62c2b2;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+.blog h3{
+    margin-top: 140px;
+    text-align: start;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px grey;
+
+}
+.blog p{
+    width:700px;
+    margin-top: 31px;
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+.cart{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px solid #088178;
+}
+.cart .icon:hover{
+cursor: pointer;
+}
+.cart .quantity{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+.cart img{
+    width: 70px;
+    height: 90px;
+}
+.cart thead{
+    font-weight: 400 ;
+    border: 1px solid #088178;
+}
+.coupon_payment{
+    display: flex;
+    justify-content: space-between;
+    margin:80px;
+    background-color: white;
+    
+}
+.cou h3{
+    text-align: start;
+    margin-bottom: 29px;
+}
+.cpn_inp{
+    width: 300px;
+    height: 45px;
+}
+.paymentdiv{
+    width: 400px;
+    padding: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.proceedpayment{
+    
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    background-color: black;
+    padding-top: 40px;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 1px grey;
+    border-radius: 10px;
+}
+.proceedpayment h3{
+    font-size: 40px;
+    color: white;
+    margin-left: 50px ;
+    display: inline-block;
+    margin-left: 0cap;
+}
+.proceedpaymentbtn{
+    margin-left: 50px;
+
+
+}
+.proceedpaymentbtn button{
+    height: 40px;
+    border-radius: 18px;
+    background-color: #85dbec;
+    box-shadow: 5px 5px 1px grey;
+    margin-bottom: 40px;
+}
+.proceedpaymentbtn button:hover{
+    background-color: #0ac4e9;
+    transform: scale(1.09);
+}
+.payment_table{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+}
+thead td{
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+thead td:nth-child(1){
+    width: 150px;
+}
+thead td:nth-child(2){
+    width: 90px;
+}
+thead td:nth-child(3){
+    width:400px
+}
+thead td:nth-child(4){
+ width: 150px;
+}
+thead td:nth-child(5){
+    width: 200px;
+}
+thead td:nth-child(6){
+    width: 240px;
+}
+    .center{
+    margin: auto !important;
+}
+.fst{
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    font-weight: 800;
+    font-size: 50px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: 8px 10px 10px 10px;
+    /* margin-top: 10px; */
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+.baner2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.baner2 h3{
+    color: white;
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px red;
+}
+.baner2 h4{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.baner2 .citem{
+    box-shadow: 15px 15px 4px grey;
+}
+.baner2 .citem:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.baner2 .item1{
+background-image: url(contents/banner/frst1.jpg);
+height: 200px;
+    width: 300px;
+    background-size: contain;
+    /* opacity: 0.7; */
+}
+.baner2 .item2{
+    background-image: url(contents/banner/frs2.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    /* opacity: 0.7; */
+}
+.baner2 .item3{
+    /* opacity: 0.7; */
+    background-size: contain;
+background-image: url(contents/banner/frs3.jpg);
+height: 200px;
+    width: 300px;
+}
+.blogbg{
+    background-image: url(contents/background/blog.jpg) !important;
+    background-size: cover !important;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ADE4DB;
+}
+.bogo{
+    border-radius: 10px;
+    margin-top: 40px;
+    background-image: url(contents/banner/yellowback.jpg);
+    background-size: contain;
+    height: 400px;
+    width: 650px;
+    box-shadow: 20px 20px 8px #3a3927;
+}
+.bogo:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+.bogo h3{
+    color: #FC5404;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-shadow:1px 1px 1px white;
+}
+.bogo h2{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    text-shadow:1px 1px 1px #FC5404;
+}
+.bogo h5{
+    text-shadow:1px 1px 1px white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: #FC5404;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+}
+.bogo .btn{
+    text-align: center;
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.brand{
+    color: #85586F;
+    font-weight: 200;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    font-size: 15px;
+}
+.btnex{
+    padding-top: 40px;
+    text-align: center;
+}
+.catalg1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalg1 p{
+    margin-bottom: 0px;
+}
+div .pritem:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.pritem{
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: #E9E8E8;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 4px gray;
+}
+.catalg1 img{
+    height: 320px;
+    width: 230px;
+    /* margin: 10px; */
+    padding : 20px;
+    background-color:#E9E8E8 ;
+    border-radius: 20px;
+}
+.details{
+    margin: 10px
+}
+.employees{
+    width: 50%
+}
+#features{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 60px;
+}
+#features p{
+
+    text-align: center;
+    color:  #57C5B6;
+    font-size: 20px;
+    font-weight: 600;
+}
+#features .fitem:nth-child(odd){
+    background-color:#F3DEBA;
+}
+#features .fitem{
+padding: 20px;
+border: 1px solid grey;
+background-color: #ADE4DB;
+margin-bottom: 20px;
+box-shadow: 10px 10px 4px gray;
+}
+#features .fitem:hover{
+ transform: scale(1.2);
+ transition: 0.5s ease;
+}
+.flogo{
+height: 100px;
+width: 100px;
+margin-bottom: 20px;
+box-shadow: 10px 10px 4px grey;
+}
+.follow{
+    margin-top: 30px;
+
+}
+.follow ul{
+    padding: 0px;
+}
+.follow li{
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  display: inline-block;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    padding-top: 40px;
+}
+.footer p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
+}
+.footer .contact{
+  margin-top:-19px ;
+}
+.footer .contact span{
+    font-weight: 400;
+}
+.footer .logo{
+    /* margin-top: 20px; */
+    margin:0px
+}
+.footer .title{
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+.form button{
+    margin-bottom: 26px;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #7A3E3E;
+}
+.form button:hover{
+    background-color: #e8d0d0;
+    color: black;
+}
+.form input{
+    border-radius: 20px;
+    width:350px;
+    margin-top:11px;
+    height: 45px;
+    box-shadow: 10px 10px 4px rgb(20, 19, 19);
+}
+.from2{
+    flex-direction: row !important;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form2 .complains{
+    width:50%
+}
+.fpro{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.fpro h1,h3{
+    margin-top: 10px;
+   text-align: center;
+}
+.fpro h1{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    text-shadow:2px 2px 2px #088178 ;
+}
+.fpro h3{
+    font-size:30px;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+   color: red;
+}
+.header{
+    background-color: #DDE6ED;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    box-shadow: 1px 1px 1px  gray;
+}
+.installapp button{
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.installapp button:hover{
+    background-color: black;
+    color: white;
+}
+.kchbhi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.kchbhi ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.kchbhi li{
+    margin-left: 0px;
+}
+.navbar{
+    /* display: inline-block; */
+    display: flex;
+    /* justify-content: center ; */
+    list-style: none;
+    justify-content: space-between;
+}
+.last{
+    background-image: url(contents/background/nightblur.jpg);
+    background-size: contain;
+    height: 400px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+li{
+    margin: 20px;
+}
+.lstbtn{
+    width: 200px;
+    height: 50px
+}
+.lstbtn:hover{
+    transform: scale(1.09);
+    transition: 0.5s ease;
+    background-color: black !important;
+    color: white !important;
+}
+.lstline{
+    display: flex;
+    justify-content: space-between;
+}
+.marquee{
+    background-color: gray;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    /* justify-content: center ; */
+
+}
+.navbar1 a{
+    text-shadow: 2px 2px 2px #068DA9;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #27374D;
+    transition: 0.1s ease;/*how fast transition get applied*/
+}
+.model{
+    height: 700px;
+    width: 550px;
+}
+.navbar1 a:hover{
+    color:#068DA9
+}
+.navbar1 a:hover{
+    border-bottom: 3px solid #068DA9;
+    padding-bottom: 8px;
+}
+.name{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+}
+.offer{
+    margin-top: 50px;
+    color: #49FF00;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    text-shadow: 2px 2px 2px red;
+}
+.home h1{
+   font-size: 50px;
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+   text-shadow:2px 2px 2px #088178 ;
+}
+.home h3{
+    font-size:30px;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Mynerve', cursive;
+   color: red;
+
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home1{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.btn-success{
+    margin-top: 25px;
+    box-shadow:10px 10px 10px #27374D;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-left:80px ;
+    margin-right:80px ;
+    margin-top:80px ;
+}
+.prodisc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+.prodisc p{
+    width :400px
+}
+.prodisc button{
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: #068DA9;
+    color: white;
+    box-shadow: 10px 10px 4px grey;
+}
+.prodisc button:hover{
+    transform: scale(1.01);
+    background-color: black;
+}
+.prodisc select{
+    width: 100px;
+}
+.repair{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    margin-top: 40px;
+    color:#49FF00;
+    text-shadow: 2px 2px 2px red;
+}
+section{
+    background-color:#DDE6ED ;
+
+}
+.shophomebg{
+    background-image: url(contents/shop/bg/city.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(contents/background/woodbg.jpg);
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.signup h2{
+    color: white;
+}
+.signup h3{
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+.smalimgbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.smimg{
+    height: 120px;
+    width: 75px;
+    cursor: pointer;
+    border: 1px solid #27374D;
+}
+.span{
+    font-weight: 500;
+    color: red;
+    text-shadow: 1px 1px 2px #49FF00;;
+}
+.stayhome{
+    text-align: center;
+    margin-bottom: 40px;
+   
+}
+.stayhome{
+    color: white !important;
+    text-shadow: 2px 2px 1px red !important;
+}
+.shophomebg h3{
+ text-shadow: 2px 2px 1px white;
+}
+.summer{
+    font-weight: 200;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+}
+
+.upcoming{
+    height: 400px;
+    width: 650px;
+    background-image: url(contents/banner/banner2.jpg);
+    background-size: contain;
+    margin-top: 40px;
+    box-shadow: 20px 20px 8px #27374D;
+    border-radius: 10px;
+}
+.upcoming h3{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+    text-shadow:1px 1px 1px pink;
+}
+.upcoming h5{
+    text-shadow:1px 1px 1px white;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.upcoming .botn{
+    margin-top: 60px;
+    text-align: center;
+}
+.upcoming .btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.upcoming h2{
+
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow:1px 1px 1px #FC5404;
+}
+.upcoming:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+.vid{
+    padding: 40px;
+    background-color: black;
+}
+video{
+    display: block;
+    border: 1px solid gray;
+    width: 280px;
+    margin: auto;
+    object-fit:cover !important;
+    border-radius: 20px;
+    overflow: hidden;
+    height:490px
+}
+
+.video .heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.whoweare{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left:80px ;
+    margin-right:80px ;
+}
+.whoweare h3{
+    font-size: 35px;
+    /* font-size: larger; */
+    font-weight: 200;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mynerve', cursive;
+    margin-bottom: 10px;
+}
+.whoweare img{
+    height: 400px;
+    width: 550px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 4px grey;
+}
+.whoweare p{
+    margin-top: 1px;
+    width:600px;
+    margin-top: 31px;
+    font-size: 24px;    
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
